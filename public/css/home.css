@@ -1,0 +1,117 @@
+body::before {
+display: block;
+content: '';
+height: 60px;
+background-image: url(/images/web.jpg);
+
+}
+
+/* .row{
+    opacity: 0;
+}
+.row.show{
+    opacity: 1;
+    transition: 1s;
+} */
+.navbar, .footer{
+    background-color: rgb(2, 9, 40);
+}
+.accordion-button{
+    animation: bgWebnar 2s infinite alternate ;
+}
+
+/* .video{
+    animation: video 1s infinite alternate ;
+} */
+.webnar, .harcer, .harcer div, .info{
+    animation: bgWebnar 2s infinite alternate ;
+}
+.button{
+    animation: colorrDiv 0.1s infinite alternate ;
+}
+.right{
+    background-color: rgb(6, 35, 102);
+    color: white;
+    border-radius: 20px;
+    border: 6px solid rgb(0, 0, 0);
+}
+.left{
+    background-color: rgb(6, 35, 102);
+    color: white;
+    border-radius: 20px;
+    border: 6px solid rgb(0, 0, 0);
+}
+/* .right{
+    animation: divright 1s infinite alternate ;
+
+}
+.left{
+    animation: divright 1s infinite alternate ;
+} */
+
+@keyframes video {
+    from{
+        padding: 5px;
+    }
+    to{
+
+    }
+}
+/* @keyframes divright {
+    from{
+        background-color: rgb(2, 9, 40);
+        color: white;
+        border-radius: 20px;
+        border: 6px solid rgb(0, 0, 0);
+        padding: 10px;
+    }
+    to{
+        background-color: rgb(6, 35, 102);
+        color: white;
+        border-radius: 20px;
+        border: 6px solid rgb(0, 0, 0);
+    }
+} */
+@keyframes bgWebnar {
+    from{
+        background-color: rgb(2, 9, 40);
+        color: white;
+       
+    }
+    to{
+        background-color: rgb(6, 35, 102);
+        color: white;
+        
+    }
+}
+@keyframes colorrDiv{
+    from{
+        
+        transform: rotate(3deg); 
+        background-color: blue;
+    }
+    to{
+       
+    }
+}
+
+
+
+
+@media(min-width: 760px){
+    .news-input{
+        width: 50%;
+    }
+   
+}
+/* .webnar{
+    background-image: url(/images/web.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#learn{
+    background-image: url(/images/web.jpg);
+}
+#contact{
+    background-image: url(/images/web.jpg);
+} */

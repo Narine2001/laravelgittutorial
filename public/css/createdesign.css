@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+h1{
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 150px;
+    background-color: #202020;
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar label {
+    font-size: 20px;
+}
+
+#toolbar input {
+    width:70%;
+    margin: 2px auto;
+}
+
+#toolbar button {
+    background-color: #1565c0;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+    margin-top: 8px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#toolbar button:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+/* body{
+    background-color: #000;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+
+
+
+.color-picker {
+    position: relative;
+    
+}
+.color-indicator{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+    width: 500px;
+    height: 640px;
+    margin-left: 300px;
+}
+#color-picker{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #091d47;
+} */
