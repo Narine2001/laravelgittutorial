@@ -332,27 +332,6 @@
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
-@if($errors->any())
-    <script>
-        $('#registerBtn').trigger('click');
-    </script>
-@endif
-
-@if(session()->has('orderSuccess'))
-    <div class="toast show bg-primary" style="position: fixed;top: 10px;right: 10px;z-index: 1031" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-            <strong class="me-auto">վերջ</strong>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body bg-light">
-            Դուք հաջողությամբ գրանցվել եք :)
-        </div>
-    </div>
-@endif
-
-
-
-
 </body>
 </html>
 
