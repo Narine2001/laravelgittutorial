@@ -1,2 +1,2 @@
 #laravelgittutorial
-[your link here]()
+[your link here](laravelgittutorial/resources/views/welcome.blade.php)
